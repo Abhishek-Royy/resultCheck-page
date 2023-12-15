@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(255, 97, 255), white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 420px;
+    height: max-content;
+    background-color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+}
+
+.box>h1 {
+    text-align: center;
+    color: blue;
+    font-weight: 400;
+}
+
+.data {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 1vw;
+}
+
+.data>form>div {
+    display: flex;
+    flex-direction: column;
+    margin-block: 1vw;
+}
+
+.data>form>div>input {
+    width: 100%;
+    padding: 0.8vw;
+    border-radius: 8px;
+    border: 1px solid #dadada;
+}
+
+h3 {
+    text-align: center;
+}
+
+#result {
+    width: 70%;
+    padding: 0.8vw;
+    font-size: 17px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(0, 72, 255);
+    color: #fff;
+}
+
+#result:active {
+    scale: 0.98;
+}
+
+#accept {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+}
+
+#accept>input {
+    width: 20px;
+    padding: 0.5;
+}
+
+#accept>label {
+    font-size: 13px;
+}
+
+#accept>label>span {
+    color: blue;
+}
